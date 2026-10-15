@@ -1,0 +1,27 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "islamic-cairo",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4317",
+        "--directory",
+        "/Users/khali/html desings/islamic-cairo"
+      ],
+      "port": 4317
+    },
+    {
+      "name": "islamic-cairo-prod",
+      "runtimeExecutable": "/Users/khali/.nvm/versions/node/v22.22.1/bin/node",
+      "runtimeArgs": [
+        "/Users/khali/.claude/skills/khalifa-design/scripts/serve-static.mjs",
+        "/Users/khali/html desings/islamic-cairo",
+        "4180"
+      ],
+      "port": 4180
+    }
+  ]
+}
